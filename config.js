@@ -1,2 +1,2 @@
-const token = "6394215834:AAHyOO7nMulaH8TOWssu7enmFZEaDtY5j84";
-const chatID = "5678420041";
+const token = "6626113866:AAHR-vCIQvW99mz-4fbElhRxFQ-bzjgqONM";
+const chatID = "1493222406";
